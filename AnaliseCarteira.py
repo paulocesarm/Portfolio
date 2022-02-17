@@ -140,12 +140,12 @@ def main():
 
     return None
 
-# print("Iniciando rotina de análise da carteira")
-# função = main()
+print("Iniciando rotina de análise da carteira")
+função = main()
 print("Iniciando Rotina de envio para o email")
 enviar_email = enviando_email()
-# print("Iniciando Rotina de envio para o telegram")
-# telegram = enviando_telegram()
+print("Iniciando Rotina de envio para o telegram")
+telegram = enviando_telegram()
 
 
 
